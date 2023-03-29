@@ -6,8 +6,32 @@
 
 #github-container {
   display: flex;
+  flex-direction: row;
+  align-items: center
 }
 
-ul {
-  list-style: none;
+#github-form {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.result-card {
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repo-toggle {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.repo-item {
+  text-align: left;
 }
